@@ -1,3 +1,7 @@
+install tftpd64.exe in windows
+
+configure network options ipaddress in ipv4 section
+
 Hit Space  while displaying u-boot logs
 
 loading procedure for u-boot only:
