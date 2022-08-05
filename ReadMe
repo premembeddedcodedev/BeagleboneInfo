@@ -1,0 +1,20 @@
+Hit Space  while displaying u-boot logs
+
+loading procedure for u-boot only:
+	=> setenv ipaddr 192.168.1.100
+	=> setenv serverip 192.168.1.1
+	=> tftp 0x80800000 u-boot.bin
+	link up on port 0, speed 100, full duplex
+	Using cpsw device
+	TFTP from server 192.168.1.1; our IP address is 192.168.1.100
+	Filename 'u-boot.bin'.
+	Load address: 0x80800000
+	Loading: #############################################
+	         2.9 MiB/s
+	done
+	Bytes transferred = 659012 (a0e44 hex)
+	=> go 0x80800000
+	## Starting application at 0x80800000 ...
+	
+	
+	U-Boot 2022.10-rc1-00218-g707b17f64e-dirty (Aug 03 2022 - 18:55:11 +0530)
