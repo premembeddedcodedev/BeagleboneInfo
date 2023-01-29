@@ -1,3 +1,8 @@
+Arch : https://elinux.org/Beagleboard:BeagleBoneBlack
+
+Yocto : https://bootlin.com/blog/yocto-project-quickest-instructions-to-generate-beaglebone-images/
+
+
 install tftpd64.exe in windows
 
 configure network options ipaddress in ipv4 section
